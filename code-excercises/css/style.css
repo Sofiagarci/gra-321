@@ -1,7 +1,10 @@
 * {
 
 }
-
-h1 {
-
+button{
+  background-color: pink;
+  color: blue;
+}
+button:hover{
+  background-color: green;  
 }
