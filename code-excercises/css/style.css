@@ -1,10 +1,17 @@
 * {
 
 }
-button{
+
+button {
   background-color: pink;
   color: blue;
 }
-button:hover{
-  background-color: green;  
+button:hover {
+  background-color: green;
+}
+{
+  .padding-hover:hover {
+  background-color: LightSalmon;
+  color:white;
+  text-decoration:underline;
 }
