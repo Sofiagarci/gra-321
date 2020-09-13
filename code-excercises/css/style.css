@@ -1,4 +1,4 @@
-
+* {
 
 }
 
@@ -10,7 +10,7 @@ button:hover {
   background-color: green;
 }
 .container {
-  background-image: url(https://images.unsplash.com/photo-1517423568366-8b83523034fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-image: url(C:\Users\thehe\OneDrive\Desktop\gra-321\code-excercises\img);
   background-size: cover;
   height:700px;
   margin: 0 auto;
