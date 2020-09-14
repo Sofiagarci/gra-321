@@ -1,13 +1,11 @@
 * {
-
   button {
     background-color:blue;
     color:white;
     border:none;
     padding:20px;
   }
-
-
-  .yes-hover:hover {
-    background-color:red;
-  }
+}
+.yes-hover:hover {
+  background-color:red;
+}
