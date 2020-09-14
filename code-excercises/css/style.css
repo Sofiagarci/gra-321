@@ -1,21 +1,10 @@
 * {
 
 }
-
 button {
-  background-color: pink;
+  background-color: pink !important;
   color: blue;
 }
 button:hover {
   background-color:green !important;
-}
-
-}
-
-h1 {
-  color: #fff;
-  font-size:52px;
-  position:relative;
-  text-align:center;
-
 }
