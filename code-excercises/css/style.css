@@ -1,11 +1,6 @@
 * {
-  button {
-    background-color:blue;
+  .padding-hover:hover {
+    background-color: GhostWhite;
     color:white;
-    border:none;
-    padding:20px;
-  }
-
-  .yes-hover:hover {
-    background-color:red;
+    text-decoration:underline;
   }
