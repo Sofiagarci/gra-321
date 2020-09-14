@@ -1,10 +1,12 @@
 * {
 
-}
-button {
-  background-color: pink !important;
-  color: blue;
-}
-button:hover {
-  background-color:green !important;
-}
+  button {
+    background-color:blue;
+    color:white;
+    border:none;
+    padding:20px;
+  }
+
+  .yes-hover:hover {
+    background-color:red;
+  }
