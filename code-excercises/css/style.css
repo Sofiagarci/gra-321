@@ -1,6 +1,6 @@
 * {
   .padding-hover:hover {
-    background-color: GhostWhite;
-    color:white;
+    background-color: blue;
+    color:pink;
     text-decoration:underline;
   }
