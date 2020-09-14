@@ -1,11 +1,10 @@
 * {
   button {
     background-color:blue;
-    color:white;
+    color:pink;
     border:none;
-    padding:20px;
+    padding:40px;
   }
-}
 .yes-hover:hover {
   background-color:red;
 }
