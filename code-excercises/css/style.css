@@ -14,11 +14,12 @@
       padding: 1em 2em 1em 2em;
     }
     .container{
-      background-image: url("../img/dog.jpg");
+      background-image: url("../img/artist.JPG");
       height: 1000px;
     }
     .container h1{
-    background-color: white
+    background-color: #3D6FB7
+  
     }
 
 
@@ -53,5 +54,3 @@
         background-color: MediumSeaGreen;
     }
     }
-
-     
