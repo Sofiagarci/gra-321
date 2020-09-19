@@ -9,19 +9,24 @@
       background-color:black;
       border: none;
       color:white;
-      font-family:Arial, sans-serif;
+      font-family:helvetica, sans-serif;
       text-transform: uppercase;
       padding: 1em 2em 1em 2em;
     }
     .container{
       background-image: url("../img/artist.JPG");
-      height: 1000px;
+      height: 1500px;
+      margin: 100px;
     }
     .container h1{
     background-color: #3D6FB7
-  
     }
-
+    .container p{
+      margin: 15px;
+      font-size: 35px;
+      line-height: 450px;
+      color:#dae3ec;
+    }
 
 
     /*---Poppins Font Import ---*/
@@ -45,12 +50,13 @@
     /*---Media Queries---*/
     @media screen and (max-width: 1000px) {
       body {
-        background-color: LightSalmon;
+        background-color: #dce5ec;
+
     }
     }
 
     @media screen and (max-width: 500px) {
       body {
-        background-color: MediumSeaGreen;
+        background-color: #a8bcd4;
     }
     }
