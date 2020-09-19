@@ -15,8 +15,12 @@
     }
     .container{
       background-image: url("../img/tyler.jpg");
-      height: 1500px;
-      margin: 100px;
+      background-size: cover;
+      height:700px;
+      margin: 0 auto;
+      width:50%;
+      
+
     }
     .container h1{
     background-color: #3D6FB7
