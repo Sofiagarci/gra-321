@@ -16,10 +16,10 @@
     .container{
       background-image: url("../img/tyler.jpg");
       background-size: cover;
-      height:700px;
+      height:800px;
       margin: 0 auto;
       width:50%;
-      
+
 
     }
     .container h1{
@@ -29,7 +29,7 @@
       margin: 15px;
       font-size: 35px;
       line-height: 450px;
-      color:#dae3ec;
+      color:white;
     }
 
 
@@ -38,7 +38,7 @@
 
     /*---Default Styling ---*/
     body {
-      background-color: #5d85b8;
+      background-color: #f26eaa;
     }
     p {
       font-family: 'Poppins', Arial, sans-serif;
@@ -54,13 +54,13 @@
     /*---Media Queries---*/
     @media screen and (max-width: 1000px) {
       body {
-        background-color: #dce5ec;
+        background-color: #e4659f;
 
     }
     }
 
     @media screen and (max-width: 500px) {
       body {
-        background-color: #a8bcd4;
+        background-color: #d75b93;
     }
     }
