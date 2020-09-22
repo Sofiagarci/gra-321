@@ -16,7 +16,7 @@
     .container{
       background-image: url("../img/tyler.jpg");
       background-size: cover;
-      height:800px;
+      height:900px;
       margin: 0 auto;
       width:50%;
 
@@ -30,6 +30,7 @@
       font-size: 35px;
       line-height: 450px;
       color:white;
+
     }
 
 
