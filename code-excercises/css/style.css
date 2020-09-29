@@ -1,10 +1,10 @@
-
+/*---Hover styling ex1 ---*/
   .padding-hover:hover {
     background-color: blue;
     color:pink;
     text-decoration:underline;
   }
-
+/*---Button styling---*/
   button {
       background-color:black;
       border: none;
@@ -13,26 +13,34 @@
       text-transform: uppercase;
       padding: 1em 2em 1em 2em;
     }
+  /*---Image of tyler ex2---*/
     .container{
       background-image: url("../img/tyler.jpg");
       background-size: cover;
       height:900px;
       margin: 0 auto;
       width:50%;
-
-
     }
+
+  /*---background of tyler---*/
     .container h1{
     background-color: #3D6FB7
     }
+  /*---how are you world styling---*/
     .container p{
       margin: 15px;
       font-size: 35px;
       line-height: 450px;
       color:white;
-
     }
-
+    /*---mockup images 1---*/
+    .container m{
+      background-image: url("../img/mock1.png");
+      background-size: cover;
+      height:900px;
+      margin: 0 auto;
+      width:50%;
+    }
 
     /*---Poppins Font Import ---*/
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
