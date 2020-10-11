@@ -73,3 +73,58 @@
         background-color: #d75b93;
     }
     }
+  /*---Grids---*/
+
+
+  /*---please work new grid---*/
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 25%;
+    border: 1px solid white;
+    padding: 30px;
+}
+
+.material {
+  width: 15%;
+  float: left;
+  padding: 30px;
+  border: 1px solid white;
+  Height: 70%
+}
+
+.main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 1px solid white;
+}
+
+h5 {
+  margin: 50px;
+  font-size: 30px;
+  line-height: 450px;
+  color:black;
+  padding:15px;
+  font-size:52px;
+  font-weight:500;
+
+
+
+
+ .bowls{
+     background-image: url("../img/bowls.jpg");
+     background-size: cover;
+     height:900px;
+     width:50%;{
+
+}
+
+
+
+
+
+
+}
