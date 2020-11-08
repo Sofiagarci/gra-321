@@ -5,3 +5,217 @@
 h1 {
 
 }
+
+html {
+font-size: 16px;
+}
+
+body {
+  background-color:#F3F3F3;
+  font-family: 'Poppins', sans-serif;
+
+  /*---Poppins Font Import ---*/
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+
+  p{
+  font-weight: normal;
+  line-height: 25px;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: red;
+  }
+
+}
+
+.nav-bar
+{
+  background-image:url(../img/banner6.png);
+  width: 320px;
+  height: 960px;
+
+}
+.about
+{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+
+h4 {
+font-weight: bolder;
+line-height: 25px;
+margin-left: 21px;
+margin-right: 21px;
+color: #5D5D5D;
+}
+
+h5 {
+font-weight: bolder;
+line-height: 25px;
+margin-right: 21px;
+color: green;
+}
+
+.title
+{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #5D5D5D;
+}
+
+.iced-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+.iced-drinks {
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  color: #5D5D5D;
+  font-size: 16px;
+
+}
+
+.Cost {
+  display: inline-flex;
+  width:60%;
+  justify-content: space-around;
+  line-height: 50px;
+  color: blue;
+  font-size: 16px;
+
+
+
+
+  background-color: pink;
+
+}
+
+.hot-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+  background-color: #F3F3F3;
+
+}
+.hot-drinks{
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+
+.cost-2{
+
+}
+
+.hot-teas{
+
+  line-height: 25px;
+  font-weight: normal;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+.extras{
+  line-height: 25px;
+  font-weight: normal;
+  font-style: italic;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+
+  color: #5D5D5D;
+}
+
+.food-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+
+.food-specials {
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: red;
+  font-size: 16px;
+}
+
+.Cost-3 {
+  display: inline-flex;
+  width:50%;
+  justify-content: space-around;
+  line-height: 50px;
+  color: blue;
+  font-size: 16px;
+}
+.panini{
+  line-height: 25px;
+  font-weight: normal;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+.pasteries-menu{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+
+.pasteries-specials{
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  color: red;
+}
+.extras-2{
+  line-height: 25px;
+  font-weight: normal;
+  font-style: italic;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+.contact-bio{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #5D5D5D;
+}
+
+.locations {
+  line-height: 25px;
+  font-weight: normal;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+.
