@@ -66,7 +66,7 @@ h5 {
 font-weight: bolder;
 line-height: 25px;
 margin-right: 21px;
-color: green;
+color: ada2a2;
 }
 
 .title
@@ -101,13 +101,9 @@ color: green;
   width:100%;
   justify-content: space-around;
   line-height: 50px;
-  color: blue;
+  color: grey;
   font-size: 16px;
 
-
-
-
-  background-color: pink;
 
 }
 
@@ -166,7 +162,7 @@ color: green;
   font-weight: bold;
   margin-left: 21px;
   margin-right: 21px;
-  color: red;
+  color: grey;
   font-size: 16px;
 }
 
@@ -199,7 +195,7 @@ color: green;
   line-height: 50px;
   font-weight: bold;
   font-size: 16px;
-  color: red;
+  color: grey;
 }
 .extras-2{
   line-height: 25px;
@@ -228,19 +224,29 @@ color: green;
   font-size: 16px;
 }
 
-
-    .back
-    {
-      position: relative;
-      top: 0;
-      left: 0;
-      width: 100%;
-    }
-    .logo
-    {
-      position: absolute;
-      top: 375px;
-      margin-left: 46px;
-      margin-right: 46px;
-      align-items: center;
-    }
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.back
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logo
+{
+  position: absolute;
+  top: 370px;
+  left: 45px;
+  align-content: center;
+  padding: px;
+  width: 100%
+  display: flex;
+}
+.drinks-banner{
+  width:100%;
+  align-content: center;
+}
