@@ -11,7 +11,7 @@ font-size: 16px;
 }
 
 body {
-  background-color:#F3F3F3;
+  background-color:#f9f4e8;
   font-family: 'Poppins', sans-serif;
 
   /*---Poppins Font Import ---*/
@@ -113,7 +113,7 @@ color: ada2a2;
   margin-left: 21px;
   margin-right: 21px;
   font-size: 16px;
-  background-color: #F3F3F3;
+  background-color: #f9f4e8;
 
 }
 .hot-drinks{
@@ -247,6 +247,21 @@ color: ada2a2;
   display: flex;
 }
 .drinks-banner{
+  width:100%;
+  align-content: center;
+}
+
+.food-banner{
+  width:100%;
+  align-content: center;
+}
+
+.sweets-banner{
+  width:100%;
+  align-content: center;
+}
+
+.contact-banner{
   width:100%;
   align-content: center;
 }
