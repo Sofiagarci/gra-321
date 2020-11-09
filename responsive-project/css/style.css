@@ -265,3 +265,23 @@ color: ada2a2;
   width:100%;
   align-content: center;
 }
+
+.navigation {
+  width: 100%;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: bold;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.overlay-image {
+  background-image:<img src="img/overlay.png" class="back"/>;
+
+}
+
+.ending {
+  background-color: #5D5D5D;
+  color: #DCDCDC;
+  padding: 50px;
+}
