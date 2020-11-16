@@ -28,15 +28,18 @@ body {
     width: 100%;
   }
 
-  p{
+  p {
   font-weight: normal;
   line-height: 25px;
   margin-left: 21px;
   margin-right: 21px;
-  color: blue;
+
   }
 
 }
+
+
+
 
 
 
@@ -47,8 +50,19 @@ body {
   width: 100%;
   margin-left: 21px;
   margin-right: 21px;
+
+
+
 }
 
+
+h3 {
+font-weight: ;
+line-height: 25px;
+margin-left: 21px;
+margin-right: 21px;
+color: #5D5D5D;
+}
 
 h4 {
 font-weight: bolder;
@@ -74,6 +88,8 @@ color: ada2a2;
   font-size: 16px;
   line-height: 25px;
   color: #5D5D5D;
+
+
 }
 
 .iced-menu {
@@ -271,16 +287,15 @@ color: ada2a2;
   margin-right: 21px;
 }
 
-.overlay-image {
-  background-image:<img src="img/overlay.png" class="back"/>;
+
 
 }
 
 .ending {
   background-color: #1C1F20;
   color: #DCDCDC;
-  margin-left: 20px
-  padding: 50px;
+  margin-left: 50px
+  padding: inherit;
 }
 
 
@@ -314,18 +329,23 @@ width: 100%;
 }
 
 #logo {
-height:100px;
+height:80px;
+background-color: #1C1F20;
+
 }
 
 #toggle {
 display:none;
 
+
 }
 
 label {
-font-size: 40px;
+font-size: 30px;
 line-height:100px;
  cursor: pointer;
+
+
 }
 
 ul.menu-items {
@@ -334,6 +354,9 @@ margin: 0;
 list-style-type: none;
 text-align: left;
 border-top:3px double #000;
+background-color: green;
+
+
 
 }
 
@@ -349,10 +372,86 @@ ul.menu-items a {
   display:none;
 }
 
+
+
+
+.about-text {
+  display: inline-block;
+  width:44%;
+
+
+}
+
+.about-image {
+  display: inline-block;
+  width: 65%;
+  float: right;
+  padding-left: 50px;
+  background-color: ;
+
+}
+
+#about
+{
+  display: flex;
+  width: 100%;
+  background-color: pink;
+  padding: 20px;
+  background-color: orange;
+
+}
+
+
+
+.about-text {
+  display: inline-block;
+  width:44%;
+
+}
+
+.home-bg {
+  background-image: url("https://dl.airtable.com/.attachmentThumbnails/f00cab2a608892e39d007ef565f1edc2/6b29bcf5");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  display:flex;
+  align-items: center;
+
+}
+
+.home-bg h3 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+}
+
+home-title {
+  display: inline-block;
+  width: 56%;
+  text-align: center;
+
+
+}
+
+#home
+{
+  display: flex;
+  width: 100%;
+
+}
+
+
+
+
+
+
 /*Desktop Styles*/
 @media only screen and (min-width: 500px) {
   .header-nav {
-  background-color:#1C1F20;
+
   width:90%;
   margin: 0 auto;
     display:flex;
@@ -363,12 +462,13 @@ ul.menu-items a {
 .nav-bar {
   display:inline-block;
   position: relative;
-  padding: 30px 0 30px 0;
+  padding: 30px 10px 30px 0px;
   width:60%;
+  background-color: pink;
 }
 
 #logo {
-height:100px;
+height:60px;
 }
 
 #toggle {
@@ -387,4 +487,15 @@ text-align: right;
 border-top:none;
   width: 60%;
   justify-content: space-between;
+}
+
+
+
+
+
+
+}
+ {
+
+}
 }
