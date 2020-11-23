@@ -788,6 +788,21 @@ ul.menu-items a {
 }
 
 
+#sandwich-and-panini {
+  display:flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+
+
+
+  .sandwich-container, .panini-container {
+   width: 100%;
+  }
+
+
 /*Desktop Styles*/
 @media screen and (min-width: 650px) {
   body {
@@ -872,10 +887,6 @@ border-top:none;
     padding: 60px;
     visibility: visible;
 
-
-
-
-
   }
   #about
   {
@@ -902,7 +913,6 @@ background-color:red;
      /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
     text-align: left;
     margin: 0 auto;
-
   }
   h2 {
   font-weight:60px ;
@@ -1130,8 +1140,6 @@ background-color:red;
     height: 300px;
     display:flex;
     align-items: center;
-    margin-left: 60px;
-    margin-right: 60px;
 
 
   }
@@ -1190,6 +1198,11 @@ background-color:red;
     color: grey;
     font-size: 16px;
   }
+
+  /*Gomez help2 */
+
+    /*end of gomez*/
+
 
 
 
