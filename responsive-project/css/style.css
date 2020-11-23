@@ -360,6 +360,7 @@ ul.menu-items a {
   width: 100%;
   text-align: center;
   color: white;
+  font-size: 25px
 
 }
 
@@ -923,7 +924,7 @@ background-color:red;
   }
 
   h3 {
-  font-weight: ;
+  font-weight: bolder;
   line-height: 25px;
   margin-left: 21px;
   margin-right: 21px;
@@ -996,6 +997,7 @@ background-color:red;
       position: relative;
       margin-top: 26px;
       padding: 20px;
+      
   }
 
   .carousel-inner {
