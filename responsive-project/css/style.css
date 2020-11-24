@@ -28,6 +28,40 @@ body {
     width: 100%;
   }
 
+
+  .location-details {
+  border: 1px double #333;
+  width:50%;
+  padding:30px;
+
+  }
+
+  a {
+  display:block;
+
+  }
+
+
+  /*---Hover styling ex1 ---*/
+    .padding-hover:hover {
+      background-color: blue;
+      color:pink;
+      text-decoration:underline;
+    }
+  /*---Button styling---*/
+    button {
+        background-color:black;
+        border: none;
+        color:white;
+        margin-left: 60px;
+        text-transform: uppercase;
+        padding: 1em 2em 1em 2em;
+      }
+
+  iframe {
+  width:50%; }
+
+
   p {
   font-weight: normal;
   line-height: 25px;
@@ -364,10 +398,7 @@ ul.menu-items a {
 
 }
 
-.home-title {
-  display: inline-block;
-  width: 0%;
-  text-align: center;
+
 
 
 
@@ -445,15 +476,484 @@ ul.menu-items a {
   font-size: 15px;
   line-height: 25px;
   color: #5D5D5D;
-  padding: 20px;
-
-
-  padding: 50px 20px; /*adjust as needed*/
+  padding: 10px 20px; /*adjust as needed*/
   background-color:rgba(255, 255, 255, 0.8); /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
   text-align: left;
   margin: 0 auto;
+
+}
+.about-time
+{
+  background-color: lavender;
 }
 
+/* container */
+.about-text {
+  display: inline-block;
+
+align content: auto;
+center center;
+  width: 100%;
+  height: 200px;* {
+
+}
+
+h1 {
+
+}
+
+html {
+font-size: 16px;
+}
+
+body {
+  background-color:#f9f4e8;
+  font-family: 'Poppins', sans-serif;
+
+  /*---Poppins Font Import ---*/
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+  .banner-6 {
+    background-color:white;
+    width:100%;
+    max-width:1440px
+  }
+
+  img {
+    opacity: .2;
+    width: 100%;
+  }
+
+  p {
+  font-weight: normal;
+  line-height: 25px;
+  margin-left: 21px;
+  margin-right: 21px;
+
+  }
+
+}
+
+
+
+
+
+
+}
+.about
+{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+
+/* H tag styles */
+
+}
+h2 {
+font-weight: ;
+line-height: 25px;
+margin-left: 21px;
+margin-right: 21px;
+color: #5D5D5D;
+}
+
+h3 {
+font-weight: ;
+line-height: 25px;
+margin-left: 21px;
+margin-right: 21px;
+color: #5D5D5D;
+}
+
+h4 {
+font-weight: bolder;
+line-height: 25px;
+margin-left: 21px;
+margin-right: 21px;
+color: #5D5D5D;
+}
+
+h5 {
+font-weight: bolder;
+line-height: 25px;
+margin-right: 21px;
+color: ada2a2;
+}
+
+
+/* drinks content */
+
+
+
+.iced-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+.iced-drinks {
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  color: #5D5D5D;
+  font-size: 16px;
+
+}
+
+.Cost {
+  display: inline-flex;
+  width:100%;
+  justify-content: space-around;
+  line-height: 50px;
+  color: grey;
+  font-size: 16px;
+
+
+}
+
+.hot-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+  background-color: #f9f4e8;
+
+}
+.hot-drinks{
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+
+.cost-2{
+
+}
+
+.hot-teas{
+
+  line-height: 25px;
+  font-weight: normal;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+.extras{
+  line-height: 25px;
+  font-weight: normal;
+  font-style: italic;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+
+  color: #5D5D5D;
+}
+
+/* meals content */
+
+.food-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+
+.food-specials {
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: grey;
+  font-size: 16px;
+}
+
+.Cost-3 {
+  display: inline-flex;
+  width:50%;
+  justify-content: space-around;
+  line-height: 50px;
+  color: blue;
+  font-size: 16px;
+}
+.panini{
+  line-height: 25px;
+  font-weight: normal;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+
+/* pastries content */
+
+.pasteries-menu{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+
+.pasteries-specials{
+  display: inline-flex;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  color: grey;
+}
+.extras-2{
+  line-height: 25px;
+  font-weight: normal;
+  font-style: italic;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+}
+.contact-bio{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #5D5D5D;
+}
+
+.locations {
+  line-height: 25px;
+  font-weight: normal;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+/* overlay of design school */
+.back
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+/* bottom navs  */
+
+.navigation {
+  width: 100%;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: bold;
+  margin-left: 21px;
+  margin-right: 21px;
+
+}
+
+
+
+}
+
+.ending {
+  background-color: #1C1F20;
+  margin-left: 50px
+  padding: 50px;
+  font-size: 12px;
+
+}
+
+
+/* NAVIGATION */
+
+
+header {
+background-color: #1C1F20;
+width: 100%;
+}
+
+.header-nav {
+  background-color: #1C1F20;
+  width:90%;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+#logo {
+height:80px;
+background-color: #1C1F20;
+
+}
+
+#toggle {
+display:none;
+
+
+}
+
+label {
+font-size: 30px;
+line-height:100px;
+ cursor: pointer;
+
+
+}
+
+ul.menu-items {
+padding: 20px 0 40px 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+border-top:3px double #000;
+background-color: #1C1F20;
+
+
+
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: left;
+  color: #eae8e8;
+  display:block;
+}
+
+#toggle:checked ~ ul.menu-items {
+  display:none;
+}
+
+
+/* HOME PAGE */
+
+.home-bg {
+  background-image: url("https://dl.airtable.com/.attachmentThumbnails/f00cab2a608892e39d007ef565f1edc2/6b29bcf5");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 300px;
+  display:flex;
+  align-items: center;
+
+}
+
+.home-bg h3 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+
+.home-title {
+  display: inline-block;
+  width: 0%;
+  text-align: center;
+
+
+
+}
+
+#home
+{
+  display: flex;
+  width: 100%;
+
+}
+
+
+/* ABOUT SECTION */
+
+
+.about-text h4 {
+  display: inline-block;
+  width:100%;
+
+
+
+}
+
+
+
+#about
+{
+  display: flex;
+  width: 100%;
+  background-color: #f9f4e8;
+
+
+}
+
+/* new cara */
+
+.banner-image{
+  background-image: url("https://images.unsplash.com/photo-1518057111178-44a106bad636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  display:flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* about text styles */
+
+.title h5
+{
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 21px;
+  line-height: 30px;
+  color: grey;
+   /*padding*/
+  background-color:rgba(255, 255, 255, 0.8); /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
+  text-align: left;
+  margin: 0 auto;
+    padding: 50px 60px; /*adjust as needed*/
+
+
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #5D5D5D;
+
+  background-color:rgba(255, 255, 255, 0.8); /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
+  text-align: left;
+  margin: 0 auto;
+
+
+}
 /* container */
 .about-text {
   display: inline-block;
@@ -875,20 +1375,7 @@ border-top:none;
 
   }
   /* about */
-  .title, .h4
-  {
-    display: flex;
-    width: 100%;
-    margin-left: 60px;
-    margin-right: 21px;
-    font-size: 18px;
-    line-height: 35px;
-    color: grey;
-    text-align: left;
-    padding: 60px;
-    visibility: visible;
 
-  }
   #about
   {
     display: flex;
@@ -925,6 +1412,7 @@ background-color:red;
 
   h3 {
   font-weight: bolder;
+      font-size: 30px;
   line-height: 25px;
   margin-left: 21px;
   margin-right: 21px;
@@ -951,25 +1439,32 @@ background-color:red;
   /* new cara */
 
   .banner-image{
-    background-image: url("https://images.unsplash.com/photo-1518057111178-44a106bad636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 900px;
-    display:flex;
-    align-items: center;
-  }
+  background-image: url("https://images.unsplash.com/photo-1518057111178-44a106bad636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+  background-size: cover;
+  background-position: ;
+  width: 100%;
+  height: 50px;
+  display:flex;
+  align-items: center;
+}
+
+.banner-image h5 {
+  padding: 50px 80px; /*adjust as needed*/
+  background-color:rgba(255, 255, 255, .8); /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
+  text-align: top;
+  margin: 0 auto;
+  text-align: left;
+}
 
 
-  .about-image {
-    display: inline-block;
-    width: 10%;
-    float: right;
-    padding-left: 60px;
-    background-color:#FEFDFA;
-    background-position: center center;
-    visibility: hidden;
-  }
+.home-bg h3 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
   .hot-teas {
 
     line-height: 25px;
@@ -997,7 +1492,7 @@ background-color:red;
       position: relative;
       margin-top: 26px;
       padding: 20px;
-      
+
   }
 
   .carousel-inner {
@@ -1121,16 +1616,779 @@ background-color:red;
 
 
   #title {
+     /*adjust as needed*/
+  background-color:rgba(255, 255, 255, .9); /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+
+  .meals-bg {
+    background-image: url("https://dl.airtable.com/.attachmentThumbnails/ddb4ff2fecb2d64a4abf078060095a97/a5f41576");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    display:flex;
+    align-items: center;
+
+
+  }
+
+  .meals-bg h2 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
+
+  .meals-title {
+    display: inline-block;
+    width: %;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+
+
+  }
+
+  #meals
+  {
+    display: flex;
+    width: 100%;
+
+  }
+
+  .panini{
+    line-height: 25px;
+    font-weight: normal;
+    margin-left: 21px;
+    margin-right: 21px;
+    color: #5D5D5D;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .food-menu {
+    display: flex;
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 16px;
+  }
+
+  .food-specials {
+    display: inline-flex;
+    line-height: 50px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: grey;
+    font-size: 16px;
+  }
+
+  /*Gomez help2 */
+
+    /*end of gomez*/
+
+
+
+
+
+ {
+
+}
+}
+
+  align-items: center;
+
+  background-color:rgba(255, 255, 255, 0.8); /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
+  text-align: left;
+  margin: 0 auto;
+
+
+}
+
+/* DRINKS BANNER */
+
+.coffee-bg {
+  background-image: url("https://dl.airtable.com/.attachmentThumbnails/68dac3f81ad6ab866d0a22232c1a1020/e3bd259f");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 300px;
+  display:flex;
+  align-items: center;
+}
+
+.coffee-bg h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+
+
+}
+
+.coffee-title {
+  display: inline-block;
+  width: 0%;
+  text-align: center;
+
+
+
+}
+
+#coffee
+{
+  display: flex;
+  width: 100%;
+
+}
+
+/* CAROUSEL */
+
+.carousel {
+    position: relative;
+    margin-top: 26px;
+    padding: 20px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  height:500px;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 0px;
+    z-index: 10;
+}
+/* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
+
+.image-1 {
+background-image: url(https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.image-2 {
+background-image: url(https://images.unsplash.com/photo-1502849394214-c4b6352145ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=662&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.image-3 {
+background-image: url(https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+  height:500px;
+}
+
+
+
+
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+bottom:2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: orange;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: grey;
+}
+
+#title {
+
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+
+}
+
+.title h5
+{
+  display: flex;
+
+  padding: 56px 100px; /*adjust as needed*/
+  background-color:rgba(255, 255, 255, 0.8);
+  text-align: left;
+  margin: 0 auto;
+
+}
+
+
+
+/* MEALS BANNER */
+
+
+.meals-bg {
+  background-image: url("https://dl.airtable.com/.attachmentThumbnails/ddb4ff2fecb2d64a4abf078060095a97/a5f41576");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 300px;
+  display:flex;
+  align-items: center;
+
+
+}
+
+.meals-bg h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+}
+
+.meals-title {
+  display: inline-block;
+  width: %;
+  text-align: center;
+
+
+
+}
+
+#meals
+{
+  display: flex;
+  width: 100%;
+
+}
+
+
+
+/* PASTRIES BANNER */
+
+
+.pastries-bg {
+  background-image: url("https://dl.airtable.com/.attachmentThumbnails/fada28f33b088913deeb332b431ba687/f9732426");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 300px;
+  display:flex;
+  align-items: center;
+
+}
+
+.pastries-bg h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+}
+
+.pastries-title {
+  display: inline-block;
+  width: %;
+  text-align: center;
+
+
+
+}
+
+#pastries
+{
+  display: flex;
+  width: 100%;
+
+}
+/* LOCATION BANNER */
+
+.locations-bg {
+  background-image: url("https://dl.airtable.com/.attachmentThumbnails/9584cadb2098e2f7368c7e094e897fdb/4d6bf5e5");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 300px;
+  display:flex;
+  align-items: center;
+
+}
+
+.locations-bg h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+}
+
+.locations-title {
+  display: inline-block;
+  width: %;
+  text-align: center;
+
+
+
+}
+
+#locations
+{
+  display: flex;
+  width: 100%;
+
+}
+
+ul.menu-items {
+padding: 20px 0 40px 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+border-top:3px double #000;
+
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: left;
+  color: #eae8e8;
+  display:block;
+}
+
+.social {
+
+  margin-left: 50px
+  padding: 50px;
+}
+
+
+#sandwich-and-panini {
+  display:flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+
+
+
+  .sandwich-container, .panini-container {
+   width: 100%;
+  }
+
+
+/*Desktop Styles*/
+@media screen and (min-width: 650px) {
+  body {
+    background-color: #f9f4e8;
+}
+/*left over styles from above*/
+  width:90%;
+  margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 10px 30px 0px;
+  width:60%;
+  background-color: #1C1F20;
+}
+
+/*Gomez help*/
+#hot-and-iced {
+  display:flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .hot-container, .iced-container {
+   width: 40%;
+  }
+
+  /*end of gomez*/
+
+
+#logo {
+height:60px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.home-bg {
+  background-image: url("https://dl.airtable.com/.attachmentThumbnails/f00cab2a608892e39d007ef565f1edc2/6b29bcf5");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 900px;
+  display:flex;
+  align-items: center;
+
+
+
+  }
+  /* about */
+  .title
+  {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    line-height: 35px;
+    color: grey;
+
+
+background-color: #F9F4E8;
+    visibility: visible;
+  }
+  .about-box
+  {
+    background-color: lavender;
+
+  }
+  #about
+  {
+    display: flex;
+    width: 50%;
+    visibility: hidden;
+    padding: 10px;
+}
+
+  .about-text {
+    display: inline-block;
+    font-size:0px;
+    margin-left: 0px;
+    background-color: red;
+    visibility: collapse;
+  }
+
+  align content: auto;
+  center center;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+background-color:red;
+     /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
+    text-align: left;
+    margin: 0 auto;
+  }
+  h2 {
+  font-weight:60px ;
+  line-height: 25px;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  }
+
+  h3 {
+  font-weight: bolder;
+  line-height: 25px;
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #5D5D5D;
+  }
+
+  h4 {
+  font-weight: bolder;
+  line-height: 40px;
+  margin-right: 21px;
+  font-size: 20px;
+  line-height: 40px;
+  color: grey;
+
+  }
+
+  h5 {
+  font-weight: bolder;
+  line-height: 25px;
+  margin-right: 21px;
+  color: ada2a2;
+  }
+
+  /* new cara */
+
+  .banner-image{
+    background-image: url("https://images.unsplash.com/photo-1518057111178-44a106bad636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 900px;
+    display:flex;
+    align-items: center;
+  }
+
+
+  .about-image {
+    display: inline-block;
+    width: 10%;
+    float: right;
+    padding-left: 60px;
+    background-color:#FEFDFA;
+    background-position: center center;
+    visibility: hidden;
+  }
+  .hot-teas {
+
+    line-height: 25px;
+    font-weight: normal;
+    align-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #5D5D5D;
+    font-size: 16px;
+  }
+  .extras{
+    line-height: 25px;
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 16px;
+
+    color: #5D5D5D;
+  }
+
+  /* CAROUSEL */
+
+  .carousel {
+      position: relative;
+      margin-top: 26px;
+      padding: 20px;
+
+  }
+
+  .carousel-inner {
+      position: relative;
+      overflow: hidden;
       width: 100%;
+
+  }
+
+  .carousel-open:checked + .carousel-item {
+      position: static;
+      opacity: 100;
+  }
+  .carousel-control {
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+      font-size: 40px;
+      height: 40px;
+      line-height: 35px;
       position: absolute;
-      padding: 0px;
-      margin: 0px auto;
+      top: 50%;
+      -webkit-transform: translate(0, -50%);
+      cursor: pointer;
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
       text-align: center;
-      font-size: 27px;
-      color: rgba(255, 255, 255, 1);
-      font-family: 'Open Sans', sans-serif;
-      z-index: 9999;
-      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+      width: 0px;
+      z-index: 10;
+  }
+  /* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
+
+  .image-1 {
+  background-image: url(https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center center;
+  }
+
+  .image-2 {
+  background-image: url(https://images.unsplash.com/photo-1502849394214-c4b6352145ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=662&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center center;
+  }
+
+  .image-3 {
+  background-image: url(https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center center;
+  }
+
+  .carousel-item {
+      position: absolute;
+      opacity: 0;
+    height:500px;
+  }
+
+
+
+
+  }
+
+  .carousel-control.prev {
+      left: 2%;
+  }
+
+  .carousel-control.next {
+      right: 2%;
+  }
+
+  .carousel-control:hover {
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+  }
+
+  #carousel-1:checked ~ .control-1,
+  #carousel-2:checked ~ .control-2,
+  #carousel-3:checked ~ .control-3 {
+      display: block;
+  }
+
+  .carousel-indicators {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+  bottom:2%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 10;
+  }
+
+  .carousel-indicators li {
+      display: inline-block;
+      margin: 0 5px;
+  }
+
+  .carousel-bullet {
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font-size: 35px;
+  }
+
+  .carousel-bullet:hover {
+      color: orange;
+  }
+
+  #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+  #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+  #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+      color: grey;
+  }
+  }
+
+
+
+  #title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+
   }
 
 
@@ -1201,6 +2459,57 @@ background-color:red;
     font-size: 16px;
   }
 
+  .pasteries-menu{
+    display: flex;
+    width: 100%;
+    margin-left: 21px;
+    margin-right: 21px;
+    font-size: 16px;
+  }
+
+  .pasteries-specials{
+    display: inline-flex;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    color: grey;
+  }
+  .extras-2{
+    line-height: 25px;
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 21px;
+    margin-right: 21px;
+    font-size: 16px;
+  }
+  .contact-bio{
+    display: flex;
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5D5D5D;
+  }
+
+  .locations {
+    line-height: 25px;
+    font-weight: normal;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #5D5D5D;
+    font-size: 16px;
+  }
+
+  .navigation {
+    width: 100%;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
   /*Gomez help2 */
 
     /*end of gomez*/
