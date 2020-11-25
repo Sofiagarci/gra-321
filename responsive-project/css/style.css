@@ -42,6 +42,13 @@ body {
   }
 
 
+.grey
+{
+  margin-left: 60px;
+
+}
+
+
   /*---Hover styling ex1 ---*/
     .padding-hover:hover {
       background-color: blue;
