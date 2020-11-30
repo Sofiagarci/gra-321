@@ -38,9 +38,9 @@ html {
 
 .container2 {
   max-height: 1900px;
-  max-width: 1280px;
+  max-width: 180px;
   min-height: 600px;
-  min-width: 100px;
+  min-width: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -488,8 +488,10 @@ h5 {
   font-size: 16px;
   line-height: 50px;
   font-weight: bold;
-  margin-left: 21px;
-  margin-right: 21px;
+
+  margin-left: 60px;
+  margin-right: 60px;
+
 
 }
 
@@ -878,7 +880,7 @@ h5 {
   width:50%;
   justify-content: space-around;
   line-height: 50px;
-  color: blue;
+  color: ;
   font-size: 16px;
 }
 .panini{
@@ -945,13 +947,7 @@ h5 {
 
 /* bottom navs  */
 
-.navigation {
-  width: 100%;
-  font-size: 16px;
-  line-height: 50px;
-  font-weight: bold;
-  margin-left: 21px;
-  margin-right: 21px;
+
 
 }
 
@@ -2699,8 +2695,8 @@ h5 {
   font-size: 16px;
   line-height: 50px;
   font-weight: bold;
-  margin-left: 60px;
-  margin-right: 60px;
+
+
 
 }
 
