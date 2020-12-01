@@ -20,11 +20,40 @@ html {
 
 
 
+body {
+  background: #eee;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  }
 
 
 
 
-
+  a {
+    background:;
+    color: #fff;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    line-height: 50px;
+    display: inline-block;
+    border-radius: 60px;
+    text-decoration: none;
+    margin-top: 1.5em;
+    opacity: 0.7;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+  }
+  a:hover {
+    background: #FFCD58;
+  }
 
 
 
@@ -45,10 +74,6 @@ html {
   justify-content: space-around;
   align-items: center;
   background-color: ;
-
-
-
-
 
 }
 
@@ -80,7 +105,7 @@ html {
   position: relative;
 }
 .border:hover {
-  border: 0px solid #fff;
+  border: 0px solid ;
 }
 .card {
   height: 379px;
@@ -108,6 +133,7 @@ html {
 }
 .card0:hover h2 {
   opacity: 1;
+
 }
 .card0:hover .fa {
   opacity: 1;
@@ -207,7 +233,7 @@ h2 {
 
 
 body {
-  background-color:#f9f4e8;
+  background-color:#F9F4E8;
   font-family: 'Poppins', sans-serif;
 
   /*---Poppins Font Import ---*/
@@ -229,6 +255,7 @@ body {
     border: 1px double #333;
     width:50%;
     padding:30px;
+    background-color: ;
 
   }
 
@@ -246,16 +273,12 @@ body {
 
 
   /*---Hover styling ex1 ---*/
-  .padding-hover:hover {
-    background-color: ble;
-    color:;
-    text-decoration:underline;
-  }
+
   /*---Button styling---*/
   button {
-    background-color:black;
+    background-color:;
     border: none;
-    color:white;
+    color:
     margin-left: 60px;
     text-transform: uppercase;
     padding: 1em 2em 1em 2em;
@@ -330,14 +353,15 @@ h5 {
 .iced-menu {
   display: flex;
   width: 100%;
-  margin-left: 21px;
-  margin-right: 21px;
+
   font-size: 16px;
 }
 .iced-drinks {
   display: inline-flex;
   line-height: 50px;
   font-weight: bold;
+  margin-left: 21px;
+  margin-right: 21px;
   color: #5D5D5D;
   font-size: 16px;
 
@@ -350,9 +374,17 @@ h5 {
   line-height: 50px;
   color: grey;
   font-size: 16px;
+  background-color: ;
+  padding: 20px;
 
 
 }
+
+
+
+
+
+
 
 .hot-menu {
   display: flex;
@@ -366,13 +398,13 @@ h5 {
   display: inline-flex;
   line-height: 50px;
   font-weight: bold;
-  color: #5D5D5D;
+  color: ;
   font-size: 16px;
-}
-
-.cost-2{
+  background-color: ;
 
 }
+
+
 
 .hot-teas{
 
@@ -411,14 +443,7 @@ h5 {
   font-size: 16px;
 }
 
-.Cost-3 {
-  display: inline-flex;
-  width:50%;
-  justify-content: space-around;
-  line-height: 50px;
-  color: blue;
-  font-size: 16px;
-}
+
 .panini{
   line-height: 25px;
   font-weight: normal;
@@ -433,9 +458,8 @@ h5 {
 .pasteries-menu{
   display: flex;
   width: 100%;
-  margin-left: 21px;
-  margin-right: 21px;
-  font-size: 16px;
+  margin-left: 60px;
+  background-color:;
 }
 
 .pasteries-specials{
@@ -444,8 +468,9 @@ h5 {
   font-weight: bold;
   font-size: 16px;
   color: grey;
-  margin-left: 60px;
+  margin-left: 100px;
   margin-right: 60px;
+  background-color: ;
 }
 .extras-2{
   line-height: 25px;
@@ -687,7 +712,7 @@ ul.menu-items a {
 }
 .about-time
 {
-  background-color: lavender;
+  background-color: ;
 }
 
 /* container */
@@ -781,9 +806,15 @@ h5 {
   font-weight: bolder;
   line-height: 25px;
   margin-right: 21px;
-  color: ada2a2;
+  color: grey;
 }
 
+h6 {
+  font-weight: bolder;
+  line-height: 25px;
+  margin-right: 21px;
+
+}
 
 /* drinks content */
 
@@ -803,6 +834,10 @@ h5 {
   color: #5D5D5D;
   font-size: 16px;
 
+  background-color:
+
+
+
 }
 
 .Cost {
@@ -812,6 +847,7 @@ h5 {
   line-height: 50px;
   color: grey;
   font-size: 16px;
+
 
 
 }
@@ -833,9 +869,7 @@ h5 {
   font-size: 16px;
 }
 
-.cost-2{
 
-}
 
 .hot-teas{
 
@@ -877,14 +911,7 @@ h5 {
   font-size: 16px;
 }
 
-.Cost-3 {
-  display: inline-flex;
-  width:50%;
-  justify-content: space-around;
-  line-height: 50px;
-  color: ;
-  font-size: 16px;
-}
+
 .panini{
   line-height: 25px;
   font-weight: normal;
@@ -904,13 +931,7 @@ h5 {
   font-size: 16px;
 }
 
-.pasteries-specials{
-  display: inline-flex;
-  line-height: 50px;
-  font-weight: bold;
-  font-size: 16px;
-  color: grey;
-}
+
 .extras-2{
   line-height: 25px;
   font-weight: normal;
@@ -1016,7 +1037,7 @@ ul.menu-items {
   list-style-type: none;
   text-align: left;
   border-top:3px double #000;
-  background-color: #1C1F20;
+  background-color: ;
 
 
 
@@ -1208,128 +1229,7 @@ ul.menu-items a {
 
 /* CAROUSEL */
 
-.carousel {
-  position: relative;
-  margin-top: 26px;
-  padding: 20px;
-}
 
-.carousel-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height:500px;
-}
-
-.carousel-open:checked + .carousel-item {
-  position: static;
-  opacity: 100;
-}
-.carousel-control {
-  background: rgba(0, 0, 0, 0.28);
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  font-size: 40px;
-  height: 40px;
-  line-height: 35px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  cursor: pointer;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-align: center;
-  width: 0px;
-  z-index: 10;
-}
-/* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
-
-.image-1 {
-  background-image: url(https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-2 {
-  background-image: url(https://images.unsplash.com/photo-1502849394214-c4b6352145ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=662&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-3 {
-  background-image: url(https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.carousel-item {
-  position: absolute;
-  opacity: 0;
-  height:500px;
-}
-
-
-
-
-}
-
-.carousel-control.prev {
-  left: 2%;
-}
-
-.carousel-control.next {
-  right: 2%;
-}
-
-.carousel-control:hover {
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-  display: block;
-}
-
-.carousel-indicators {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom:2%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.carousel-bullet {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 35px;
-}
-
-.carousel-bullet:hover {
-  color: orange;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-  color: grey;
-}
 
 #title {
   width: 100%;
@@ -1501,6 +1401,9 @@ ul.menu-items a {
 }
 
 
+
+
+
 /*Desktop Styles*/
 @media screen and (min-width: 650px) {
   body {
@@ -1526,8 +1429,7 @@ ul.menu-items a {
   #hot-and-iced {
     display:flex;
     justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 60px;
+    background-color: ;
   }
 
   .hot-container, .iced-container {
@@ -1567,10 +1469,8 @@ ul.menu-items a {
     height: 900px;
     display:flex;
     align-items: center;
-
-
-
   }
+
   /* about */
 
   #about
@@ -1585,7 +1485,7 @@ ul.menu-items a {
     display: inline-block;
     font-size:0px;
     margin-left: 0px;
-    background-color: red;
+    background-color: ;
     visibility: collapse;
   }
 
@@ -1682,132 +1582,6 @@ h5 {
 }
 
 /* CAROUSEL */
-
-.carousel {
-  position: relative;
-  margin-top: 26px;
-  padding: 20px;
-
-}
-
-.carousel-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-
-}
-
-.carousel-open:checked + .carousel-item {
-  position: static;
-  opacity: 100;
-}
-.carousel-control {
-  background: rgba(0, 0, 0, 0.28);
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  font-size: 40px;
-  height: 40px;
-  line-height: 35px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  cursor: pointer;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-align: center;
-  width: 0px;
-  z-index: 10;
-}
-/* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
-
-.image-1 {
-  background-image: url(https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-2 {
-  background-image: url(https://images.unsplash.com/photo-1502849394214-c4b6352145ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=662&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-3 {
-  background-image: url(https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.carousel-item {
-  position: absolute;
-  opacity: 0;
-  height:500px;
-}
-
-
-
-
-}
-
-.carousel-control.prev {
-  left: 2%;
-}
-
-.carousel-control.next {
-  right: 2%;
-}
-
-.carousel-control:hover {
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-  display: block;
-}
-
-.carousel-indicators {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom:2%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.carousel-bullet {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 35px;
-}
-
-.carousel-bullet:hover {
-  color: orange;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-  color: grey;
-}
-}
-
 
 
 #title {
@@ -1947,627 +1721,6 @@ margin: 0 auto;
 
 }
 
-/* CAROUSEL */
-
-.carousel {
-  position: relative;
-  margin-top: 26px;
-  padding: 20px;
-}
-
-.carousel-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height:500px;
-}
-
-.carousel-open:checked + .carousel-item {
-  position: static;
-  opacity: 100;
-}
-.carousel-control {
-  background: rgba(0, 0, 0, 0.28);
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  font-size: 40px;
-  height: 40px;
-  line-height: 35px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  cursor: pointer;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-align: center;
-  width: 0px;
-  z-index: 10;
-}
-/* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
-
-.image-1 {
-  background-image: url(https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-2 {
-  background-image: url(https://images.unsplash.com/photo-1502849394214-c4b6352145ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=662&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-3 {
-  background-image: url(https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.carousel-item {
-  position: absolute;
-  opacity: 0;
-  height:500px;
-}
-
-
-
-
-}
-
-.carousel-control.prev {
-  left: 2%;
-}
-
-.carousel-control.next {
-  right: 2%;
-}
-
-.carousel-control:hover {
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-  display: block;
-}
-
-.carousel-indicators {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom:2%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.carousel-bullet {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 35px;
-}
-
-.carousel-bullet:hover {
-  color: orange;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-  color: grey;
-}
-
-#title {
-
-  width: 100%;
-  position: absolute;
-  padding: 0px;
-  margin: 0px auto;
-  text-align: center;
-  font-size: 27px;
-  color: rgba(255, 255, 255, 1);
-  font-family: 'Open Sans', sans-serif;
-  z-index: 9999;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
-
-}
-
-.title h5
-{
-  display: flex;
-
-  padding: 56px 100px; /*adjust as needed*/
-  background-color:rgba(255, 255, 255, 0.8);
-  text-align: left;
-  margin: 0 auto;
-
-}
-
-
-
-/* MEALS BANNER */
-
-
-.meals-bg {
-  background-image: url("https://dl.airtable.com/.attachmentThumbnails/ddb4ff2fecb2d64a4abf078060095a97/a5f41576");
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 300px;
-  display:flex;
-  align-items: center;
-
-
-}
-
-.meals-bg h2 {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  color: white;
-
-}
-
-.meals-title {
-  display: inline-block;
-  width: %;
-  text-align: center;
-
-
-
-}
-
-#meals
-{
-  display: flex;
-  width: 100%;
-
-}
-
-
-
-/* PASTRIES BANNER */
-
-
-.pastries-bg {
-  background-image: url("https://dl.airtable.com/.attachmentThumbnails/fada28f33b088913deeb332b431ba687/f9732426");
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 300px;
-  display:flex;
-  align-items: center;
-
-}
-
-.pastries-bg h2 {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  color: white;
-
-}
-
-.pastries-title {
-  display: inline-block;
-  width: %;
-  text-align: center;
-
-
-
-}
-
-#pastries
-{
-  display: flex;
-  width: 100%;
-
-}
-/* LOCATION BANNER */
-
-.locations-bg {
-  background-image: url("https://dl.airtable.com/.attachmentThumbnails/9584cadb2098e2f7368c7e094e897fdb/4d6bf5e5");
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 300px;
-  display:flex;
-  align-items: center;
-
-}
-
-.locations-bg h2 {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  color: white;
-
-}
-
-.locations-title {
-  display: inline-block;
-  width: %;
-  text-align: center;
-
-
-
-}
-
-#locations
-{
-  display: flex;
-  width: 100%;
-
-}
-
-ul.menu-items {
-  padding: 20px 0 40px 0;
-  margin: 0;
-  list-style-type: none;
-  text-align: left;
-  border-top:3px double #000;
-
-}
-
-ul.menu-items a {
-  text-decoration:none;
-  line-height:40px;
-  text-align: left;
-  color: #eae8e8;
-  display:block;
-}
-
-.social {
-
-  margin-left: 50px
-  padding: 50px;
-}
-
-
-#sandwich-and-panini {
-  display:flex;
-  justify-content: space-between;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-
-
-
-.sandwich-container, .panini-container {
-  width: 100%;
-}
-
-
-/*Desktop Styles*/
-@media screen and (min-width: 650px) {
-  body {
-    background-color: #f9f4e8;
-  }
-  /*left over styles from above*/
-  width:90%;
-  margin: 0 auto;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-
-
-  .nav-bar {
-    display:inline-block;
-    position: relative;
-    padding: 30px 10px 30px 0px;
-    width:60%;
-    background-color: #1C1F20;
-  }
-
-  /*Gomez help*/
-  #hot-and-iced {
-    display:flex;
-    justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-
-  .hot-container, .iced-container {
-    width: 40%;
-  }
-
-  /*end of gomez*/
-
-
-  #logo {
-    height:60px;
-  }
-
-  #toggle {
-    display:none;
-  }
-
-  label {
-    display:none;
-  }
-
-  ul.menu-items, #toggle:checked ~ ul.menu-items {
-    display: flex;
-    margin: 0;
-    list-style-type: none;
-    text-align: right;
-    border-top:none;
-    width: 60%;
-    justify-content: space-between;
-  }
-
-  .home-bg {
-    background-image: url("https://dl.airtable.com/.attachmentThumbnails/f00cab2a608892e39d007ef565f1edc2/6b29bcf5");
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 900px;
-    display:flex;
-    align-items: center;
-
-
-
-  }
-  /* about */
-  .title
-  {
-    display: flex;
-    width: 100%;
-    font-size: 18px;
-    line-height: 35px;
-    color: grey;
-
-
-    background-color: #F9F4E8;
-    visibility: visible;
-  }
-  .about-box
-  {
-    background-color: lavender;
-
-  }
-  #abuout
-  {
-    display: flex;
-    width: 50%;
-    visibility: visible;
-    padding: 10px;
-  }
-
-  .about-text {
-    display: inline-block;
-    font-size:0px;
-    margin-left: 0px;
-    background-color: red;
-    visibility: collapse;
-  }
-
-  align content: auto;
-  center center;
-  width: 100%;
-  height: 200px;
-  align-items: center;
-  background-color:red;
-  /*Using RGBA colors allows you to adjust the opacity. In this example, 255, 255, 255 are the values for white. 0.8 is the amount of opacity we want .8 = the box will be 80% opaque */
-  text-align: left;
-  margin: 0 auto;
-}
-h2 {
-  font-weight:60px ;
-  line-height: 25px;
-  margin-left: 21px;
-  margin-right: 21px;
-  color: #5D5D5D;
-}
-
-h3 {
-  font-weight: bolder;
-  line-height: 25px;
-  margin-left: 21px;
-  margin-right: 21px;
-  color: #5D5D5D;
-}
-
-h4 {
-  font-weight: bolder;
-  line-height: 40px;
-  font-size: 20px;
-  line-height: 40px;
-  color: grey;
-
-}
-
-h5 {
-  font-weight: bolder;
-  line-height: 25px;
-  margin-right: 21px;
-  color: ada2a2;
-}
-
-/* new cara */
-
-.banner-image{
-  background-image: url("https://images.unsplash.com/photo-1518057111178-44a106bad636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 900px;
-  display:flex;
-  align-items: center;
-}
-
-
-.about-image {
-  display: inline-block;
-  width: 10%;
-  float: right;
-  padding-left: 60px;
-  background-color:#FEFDFA;
-  background-position: center center;
-  visibility: hidden;
-}
-.hot-teas {
-
-  line-height: 25px;
-  font-weight: normal;
-  align-content: center;
-  margin-left: 60px;
-  margin-right: 60px;
-  color: #5D5D5D;
-  font-size: 16px;
-}
-.extras{
-  line-height: 25px;
-  font-weight: normal;
-  font-style: italic;
-
-  font-size: 16px;
-
-  color: #5D5D5D;
-}
-
-/* CAROUSEL */
-
-.carousel {
-  position: relative;
-  margin-top: 26px;
-  padding: 20px;
-
-}
-
-.carousel-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-
-}
-
-.carousel-open:checked + .carousel-item {
-  position: static;
-  opacity: 100;
-}
-.carousel-control {
-  background: rgba(0, 0, 0, 0.28);
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  font-size: 40px;
-  height: 40px;
-  line-height: 35px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  cursor: pointer;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-align: center;
-  width: 0px;
-  z-index: 10;
-}
-/* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
-
-.image-1 {
-  background-image: url(https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-2 {
-  background-image: url(https://images.unsplash.com/photo-1502849394214-c4b6352145ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=662&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image-3 {
-  background-image: url(https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.carousel-item {
-  position: absolute;
-  opacity: 0;
-  height:500px;
-}
-
-
-
-
-}
-
-.carousel-control.prev {
-  left: 2%;
-}
-
-.carousel-control.next {
-  right: 2%;
-}
-
-.carousel-control:hover {
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-  display: block;
-}
-
-.carousel-indicators {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom:2%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.carousel-bullet {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 35px;
-}
-
-.carousel-bullet:hover {
-  color: orange;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-  color: grey;
-}
-}
 
 
 
@@ -2613,6 +1766,7 @@ h5 {
   text-align: center;
   margin-left: 60px;
   margin-right: 60px;
+
 
 
 }
@@ -2633,6 +1787,7 @@ h5 {
   font-size: 16px;
   margin-left: 60px;
   margin-right: 60px;
+  background-color: ;
 }
 .food-menu {
   display: flex;
@@ -2666,6 +1821,7 @@ h5 {
   font-weight: bold;
   font-size: 16px;
   color: grey;
+  background-color: ;
 }
 .extras-2{
   line-height: 25px;
@@ -2753,78 +1909,72 @@ h5 {
 
 }
 .border:hover {
-  border: 0px solid #fff;
+  border: 0px solid green;
 }
 .card {
-  height: 379px;
+  height: 500px;
   width: 500px;
-  background: #808080;
+
   border-radius: 10px;
   transition: background 0.8s;
   overflow: hidden;
-  background: #000;
+  background: ;
 
   display: flex;
   justify-content: center;
   align-items: left;
   position: relative;
-
 }
+
+
+
+
+
+
 .card0 {
   background: url("https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") center center no-repeat;
-  background-size: 300px;
+  background-size: 600px;
 
 }
 .card0:hover {
   background: url("https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") left center no-repeat;
-  background-size: 600px;
+  background-size: 750px;
 }
-.card0:hover h2 {
-  opacity: 1;
-}
-.card0:hover .fa {
-  opacity: 1;
-}
+
+
 .card1 {
   background: url("https://images.unsplash.com/photo-1599915468215-0308aa84cf34?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80") center center no-repeat;
-  background-size: 300px;
+  background-size: 600px;
 }
 .card1:hover {
   background: url("https://images.unsplash.com/photo-1599915468215-0308aa84cf34?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80") left center no-repeat;
-  background-size: 600px;
+  background-size: 750px;
 }
-.card1:hover h2 {
-  opacity: 1;
-}
-.card1:hover .fa {
-  opacity: 1;
-}
+
 .card2 {
   background: url("https://images.unsplash.com/photo-1581771556488-da02d801966c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80") center center no-repeat;
-  background-size: 300px;
+  background-size: 600px;
 
 }
 .card2:hover {
   background: url("https://images.unsplash.com/photo-1581771556488-da02d801966c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80") left center no-repeat;
-  background-size: 600px;
+  background-size: 750px;
 }
 .card2:hover h2 {
   opacity: 1;
 }
-.card2:hover .fa {
-  opacity: 1;
-}
+
 
 
 
 .card3 {
   background: url("https://images.unsplash.com/photo-1539252554453-80ab65ce3586?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80") center center no-repeat;
-  background-size: 300px;
+  background-size: 600px;
 
 }
 .card3:hover {
   background: url("https://images.unsplash.com/photo-1539252554453-80ab65ce3586?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80https://images.unsplash.com/photo-1539252554453-80ab65ce3586?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80") left center no-repeat;
-  background-size: 600px;
+  background-size: 750px;
 }
 .card3:hover h2 {
   opacity: 1;
@@ -2835,28 +1985,67 @@ h5 {
 
 
 
-
-
-
-h2 {
-
-}
-.fa {
-  opacity: 0;
-  transition: opacity 1s;
-}
-.icons {
-  position: absolute;
-  fill: #fff;
-  color: #fff;
-  height: 130px;
-  top: 226px;
-  width: 50px;
+.card {
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+  background: ;
+  max-width: 700px;
+  margin: 80px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
+
+
+
+
+
+
+
+
+
+.card-pic-wrap {
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9fd483), to(#8dc26f));
+  background: url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=956&q=80") left center no-repeat;
+
+}
+.card-pic-wrap img {
+  position: absolute;
+  bottom: 3em;
+  left: 50%;
+  margin-left: -175px;
+  width: 350px;
+  -webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(90%, transparent), to(rgba(250, 250, 250, 0.15)));
+}
+
+.card-content {
+  padding: 3em 4em 2em;
+  background-color: white;
+}
+
+.drinks {
+  background-size: cover;
+   background-position: center center;
+   width: 100%;
+   height: 300px;
+   display:flex;
+   align-items: center;
+
+}
+
+
+
+
+
+
+
 
 
 {
